@@ -1,0 +1,105 @@
+.modal-background {
+  position: fixed;
+  z-index: 1;
+  top: 0%;
+  left: 0%;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-container {
+  background-color: white;
+  width: 400px;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding: 12px 15px;
+  border-bottom: 1px solid rgb(232, 228, 228);
+}
+
+.modal-title {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.04rem;
+}
+
+.close-modal-icon {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 12px 15px;
+}
+
+.input-field-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.input-field-group label {
+  display: flex;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.04rem;
+  gap: 2px;
+}
+
+.input-field-group label::after {
+  content: " *";
+  color: red;
+}
+
+.input-field-group input {
+  outline: none;
+  padding: 8px 6px;
+  font-size: 17px;
+  border: 1px solid rgb(210, 205, 205);
+  border-radius: 5px;
+  letter-spacing: 0.03rem;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  letter-spacing: 0.04rem;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+
+.modal-footer .cancel-modal-button,
+.modal-footer .edit-modal-button {
+  width: 100px;
+  background-color: #3498db;
+  border: none;
+  outline: none;
+  padding: 8px 0px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  letter-spacing: 0.04rem;
+}
+
+.modal-footer .cancel-modal-button {
+  background-color: #e74c3c;
+}
