@@ -4,7 +4,7 @@ import React from "react";
 import { FaPhone, FaRegHeart, FaHeart } from "react-icons/fa6";
 import { MdOutlineEmail } from "react-icons/md";
 import { AiOutlineGlobal, AiTwotoneEdit, AiFillDelete } from "react-icons/ai";
-import personAvatar from "../../images/personAvatar.svg";
+import personAvatar from "../../images/personAvatar.jpg";
 
 // CSS Imports
 import "./PersonInfoCard.css";
